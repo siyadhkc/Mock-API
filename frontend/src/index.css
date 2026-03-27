@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0f1117; color: #e2e8f0; font-family: 'DM Sans', sans-serif; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0f1117; }
+::-webkit-scrollbar-thumb { background: #2a3347; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #374151; }
+
+.method-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 500; padding: 2px 8px; border-radius: 4px; letter-spacing: 0.05em; }
+.method-GET    { background: #064e3b; color: #6ee7b7; }
+.method-POST   { background: #1e3a5f; color: #93c5fd; }
+.method-PUT    { background: #451a03; color: #fbbf24; }
+.method-PATCH  { background: #3b0764; color: #c4b5fd; }
+.method-DELETE { background: #450a0a; color: #fca5a5; }
